@@ -21,6 +21,15 @@ const questions = [
     ],
     correct: 2,
   },
+  {
+    title: 'Какая компания разработала реакт?',
+    variants: [
+      'Google',
+      'Facebook',
+      'Amazon',
+    ],
+    correct: 1,
+  },
 ];
 
 function Result({correct}) {
