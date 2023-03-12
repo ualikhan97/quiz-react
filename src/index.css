@@ -24,18 +24,7 @@ body {
   text-align: center;
 }
 
-.App .result button {
-  font-weight: bold;
-  font-family: 'Nunito', sans-serif;
-  border-radius: 30px;
-  border: 0;
-  padding: 15px 30px;
-  font-size: 20px;
-  background-color: darken(#ff006e, 3%);
-  color: #fff;
-  margin-top: 20px;
-  cursor: pointer;
-}
+
 
 .App .result h2 {
   margin-bottom: 0;
@@ -43,6 +32,19 @@ body {
 
 .App .result img {
   width: 150px;
+}
+
+.App .result button {
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 30px;
+  border: 0;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #7b0a60;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer
 }
 
 .App .progress {
